@@ -39,12 +39,13 @@ void printBanner(){
 	cout << "Welcome to the RISK Battle Game!\n";
 	cout << "Initially both the armies will have the same number of territories and soldiers.\n";
 	cout << "The player picks an army; comp gets the other.\n";
-	cout << "We roll a die and whoever gets the highest, begins the game\n";
+	cout << "We roll a dice and whoever gets the highest, begins the game\n";
 	cout << "On your turn, you can either attack enemy territory or defend your territory\n.";
 	cout << "The size of your contigent will be decided based on the outcome of 2 dice.\n";
-	cout << "The army with the highest outcome wins the round and the territory\n";
+	cout << "The army with the highest outcome wins the round and the territory.\n";
+	cout << "The winning army loses 1 soldier for every 2 enemy soldier.\n";
 	cout << "The losing side loses the contigent and the territory.\n";
-	cout << "The side which loses all its territories first or is left with less than 10 soldiers,\n";
+	cout << "The side which loses all its territories first or is left with less than 12 soldiers,\n";
 	cout << "loses the game.\n";
 	cout << "Good Luck! Let the battle begin...\n";
 }
